@@ -1,0 +1,167 @@
+/*.imagen{
+    width: 250px;
+    height: auto;
+}*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbarColor {
+    background-color: #dda15e
+}
+
+footer {
+    background-color: #ffbf69;
+    margin-top: 70px;
+    padding-top: 30px;
+}
+
+footer p {
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+}
+
+footer h5 {
+    color: white;
+}
+
+.info {
+    padding: 45px;
+    color: #ffffffd7;
+    background: #7a5048d4;
+    background: -webkit-linear-gradient(to right, #5b3b2edf, #ad6e53de);
+    background: linear-gradient(to right, #532310d5, #ad7b53d5), url(./img/imagen5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* imagen dentro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+}
+
+
+/*imagen de sobre nosotros*/
+.imagen-nosotros {
+    height: 350px;
+    background-image: url(./img/sobrenosotros.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.color-cafe {
+    color: #803011d5;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+
+
+#color-cafe {
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+
+#color-cafe:hover {
+
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    transform: scale(1.2);
+
+
+}
+
+
+
+.derechos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+    background-color: #531818d7;
+}
+
+.derechos p {
+    margin: 0px;
+}
+
+i {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+i:hover {
+    color: rgb(255, 133, 76);
+}
+
+
+/* ESTILOS DE LOS ICONOS  DE FOOTER del INDEX*/
+.icono-facebook {
+    font-size: 40px;
+    color: #0151fed7;
+    transition: all ease 0.5s;
+}
+
+.icono-facebook:hover {
+    transform: scale(1.2);
+    color: #0137acd7;
+}
+
+.icono-instagram {
+    font-size: 40px;
+    color: #ea1d83d7;
+    transition: all ease 0.5s;
+}
+
+.icono-instagram:hover {
+    transform: scale(1.2);
+    color: #c60063d7;
+}
+
+.icono-whatsapp {
+    font-size: 40px;
+    color: #10ff08d7;
+    transition: all ease 0.5s;
+}
+
+.icono-whatsapp:hover {
+    transform: scale(1.2);
+    color: #10ff08d7;
+}
+
+.cafe {
+    color: #803011d5;
+    font-weight: 600;
+}
+
+.color-border {
+    border: 1px solid #531818d7;
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: #531818d7;
+    transition: all ease 1s;
+}
+
+.color-border:hover {
+    background-color: #5318189d;
+}
+
+.aside {
+    background-color: #8f5730d7;
+}
+
+.sidebar {
+    background-color: rgb(255, 255, 255);
+}
